@@ -1,0 +1,113 @@
+html{
+    margin-top: 25px;
+}
+.footer{
+    margin-left: 310px;
+    margin-top: 25px;
+    width: 1000px;
+    height: 300px;
+}
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.content_box{
+    border: 2px solid #727070;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box_title{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.box_text{
+    color: #7e7474;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 35px;
+}
+.box_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 300px;
+}
+.box_button button{
+    font-size: 20px;
+    background: none;
+    border: 2px solid #817979;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+.footer_bol{
+    position: absolute;
+    margin-top: -25px;
+}
+.bol_content{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+.content_bol{
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/*******************************/
+.homework2{
+    margin-top: 50px;
+}
+.header_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background-color: #9090ea;
+}
+.content_left{
+    width: 400px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+.content_right{
+    display: flex;
+    margin-right: 100px;
+
+}
+.right_img img{
+    width: 100px;
+    height: 100px;
+}
+.mid_content{
+    width: 100%;
+    height: 600px;
+    background-color: #727070;
+    }
+.foot_content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #9090ea;
+    position: absolute;
+}
+.content_boxes{
+    position: relative;
+    bottom: 100px;
+    margin-bottom: -85px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-right: 25px;
+}
